@@ -15,3 +15,11 @@ linker = "arm-linux-gnueabihf-gcc"
 
 [target.armv7-unknown-linux-musleabihf]
 linker = "arm-linux-gnueabihf-gcc"
+
+# offline install
+[source.crates-io]
+replace-with = "vendored-sources"
+
+[source.vendored-sources]
+directory = "vendor"
+
