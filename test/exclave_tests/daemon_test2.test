@@ -1,0 +1,5 @@
+[Test]
+ExecStart = /home/yp/Desktop/exclave_tests/bin/daemon_test2.sh
+Name = daemontest2
+Type = daemon
+

@@ -1,0 +1,7 @@
+[Scenario]
+Name = Comprehensive test
+Description = Test all features
+Tests = sample_test1
+WorkingDirectory = /home/yp/Desktop/exclave_tests/bin/
+Timeout = 180
+

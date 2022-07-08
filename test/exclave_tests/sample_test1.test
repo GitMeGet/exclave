@@ -1,0 +1,8 @@
+[Test]
+ExecStart = /home/yp/Desktop/exclave_tests/bin/sample_test1.sh
+ExecStopSuccess = echo "HI"
+Name = sampletest1
+Description = high priority sample test 1
+Timeout = 180
+Type = simple
+

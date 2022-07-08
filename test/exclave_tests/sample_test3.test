@@ -1,0 +1,7 @@
+[Test]
+ExecStart = /home/yp/Desktop/exclave_tests/bin/sample_test3.sh
+Name = sampletest3
+Description = sample test 3
+Timeout = 10
+Type = simple
+
